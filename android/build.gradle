@@ -16,8 +16,17 @@ buildscript {
         classpath("com.android.tools.build:gradle:4.2.2")
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
+        // compile project(':react-native-vector-icons')
+
     }
 }
+// project.ext.vectoricons = [
+//     iconFontNames: [ 'MaterialIcons.ttf', 'EvilIcons.ttf' ] // Name of the font files you want to copy
+// ]
+
+// apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
+
+//    apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
 
 allprojects {
     repositories {
